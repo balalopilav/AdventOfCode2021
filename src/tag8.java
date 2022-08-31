@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class tag8 {
@@ -40,6 +41,10 @@ public class tag8 {
 	    System.out.println("There are " + simpledigits + " digits in Part 1!");
 	    
 	    //Part 2
+	    for (int i = 0; i < input.size()/10; i+= 10) {
+			
+		}
+	    
 	    digits = getDigits(output);
 	    List<Integer> numbers = new ArrayList<>();
 	    for(int i = 0; i < digits.size()-3; i+=4) {
@@ -55,6 +60,13 @@ public class tag8 {
 	    
 	}
 	
+	static String[] getSimpleDigits(List<String> input){
+		String[] digits = new String[10];
+		
+		
+		
+		return digits;
+	}	
 	static List<Integer> getDigits(List<String> input){
 		List<Integer> digits = new ArrayList<>();
 		
